@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5 {
 /* First page here */
 
 body {
-	width: 905px;
+	width: 890px;
 	margin: auto;}
   
   nav{
@@ -77,14 +77,14 @@ body {
   
   nav a {
 	text-decoration: none;
-	font-size: 14px;
+	font-size: 15px;
 	font-weight: bold;
 	color: darkgray;
   }
 
   .logo {
 	padding-left: 30px;
-	padding-right: 20px;
+	padding-right: 10px;
 }
 
   .headerPage1 {
@@ -160,41 +160,47 @@ body {
 
 .headerPage2 {
 	color: black;
-	padding-bottom: 30px;
+	padding-bottom: 40px;
 	border-bottom: 1px solid black;
 	margin-bottom: 40px;
 }
 
 .headerPage2 h1{
-	font-size: 25px;
+	font-size: 26px;
 	}
+
+.headerPage2 p{
+	line-height: 20px;
+}
 
 .choices{
 	display: flex;
 	flex-wrap: wrap;
-	height: 800px;
+	height: 840px;
 	justify-content: space-between;
 	align-content: space-between;
-	font-weight: bold;
+	padding-right: 10px;
 }
 
 .choice{
-	flex-basis: 435px;
-	padding: 28px;
-	background-color: ghostwhite;
-	border: 1px solid black;	
+	flex-basis: 420px;
+	padding: 20px;
+	background-color: whitesmoke;
+	border: 1px solid black;
+	padding-bottom: 30px;	
 }
 
 .choice p{
-	padding-bottom: 20px;
+	padding-top: 5px;
 	line-height: 20px;
+	padding-bottom: 30px;
 }
 
 .choice a{
 	text-decoration: none;
-	font-size: 11px;
-	color: gray;
-	padding: 6px 36px;
+	font-size: 12px;
+	color: black;
+	padding: 7px 40px;
 	border: 1px solid black;
 	border-radius: 5px;
 	background-color: white;
@@ -206,8 +212,8 @@ summary{
 	margin-top: 40px;
 	display: flex;
 	justify-content: space-between;
-	font-weight: bold;
 	line-height: 20px;
+	padding-right: 5px;
 }
 
 .facts{
@@ -220,10 +226,13 @@ ul{
 	line-height: 30px;
 }
 
+li{
+padding-left: 10px;
+}
+
 .footerPage2{
 	margin-top: 40px;
 	text-align: center;
 	padding: 40px;
-	font-size: 15px;
-	font-weight: bold;
+	font-size: 16px;
 }

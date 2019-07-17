@@ -62,6 +62,7 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+/* First page here */
 
 body {
 	width: 905px;
@@ -71,20 +72,26 @@ body {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin: 35px 0px 50px 0px;
+	margin: 35px 0px 0px 0px;
   }
   
   nav a {
 	text-decoration: none;
 	font-size: 14px;
-	color: LightGray;
+	font-weight: bold;
+	color: darkgray;
   }
-  
-  header {
+
+  .logo {
+	padding-left: 30px;
+	padding-right: 20px;
+}
+
+  .headerPage1 {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin-top: 50px;
+	margin-top: 60px;
   }
   
   .title{
@@ -138,8 +145,85 @@ body {
 	padding-top: 20px; padding-bottom: 20px;
   }
   
-  footer{
+  .footerPage1{
 	text-align: center;
 	padding: 40px;
 	font-size: 13px;
   }
+
+/* Second page here */
+
+.services-header-img{
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+
+.headerPage2 {
+	color: black;
+	padding-bottom: 30px;
+	border-bottom: 1px solid black;
+	margin-bottom: 40px;
+}
+
+.headerPage2 h1{
+	font-size: 25px;
+	}
+
+.choices{
+	display: flex;
+	flex-wrap: wrap;
+	height: 800px;
+	justify-content: space-between;
+	align-content: space-between;
+	font-weight: bold;
+}
+
+.choice{
+	flex-basis: 435px;
+	padding: 28px;
+	background-color: ghostwhite;
+	border: 1px solid black;	
+}
+
+.choice p{
+	padding-bottom: 20px;
+	line-height: 20px;
+}
+
+.choice a{
+	text-decoration: none;
+	font-size: 11px;
+	color: gray;
+	padding: 6px 36px;
+	border: 1px solid black;
+	border-radius: 5px;
+	background-color: white;
+}
+
+summary{
+	padding-top: 40px;
+	border-top: 2px solid black;
+	margin-top: 40px;
+	display: flex;
+	justify-content: space-between;
+	font-weight: bold;
+	line-height: 20px;
+}
+
+.facts{
+	padding-right: 70px;
+}
+
+ul{
+	padding-top: 20px;
+	padding-left: 18px;
+	line-height: 30px;
+}
+
+.footerPage2{
+	margin-top: 40px;
+	text-align: center;
+	padding: 40px;
+	font-size: 15px;
+	font-weight: bold;
+}
